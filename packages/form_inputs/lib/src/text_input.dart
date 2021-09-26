@@ -18,6 +18,6 @@ class TextInput extends FormzInput<String, TextInputError> {
 
   @override
   TextInputError? validator(String value) {
-    return value.isNotEmpty == true ? null : TextInputError.empty;
+    return null;
   }
 }
