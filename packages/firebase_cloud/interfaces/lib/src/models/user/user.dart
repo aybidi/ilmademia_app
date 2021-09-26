@@ -108,16 +108,6 @@ class User extends Equatable {
     String? lastName,
     String? phoneNumber,
     String? zipCode,
-    int? rewardsTosAccepted,
-    int? lotteryTosAccepted,
-    bool? ukPrivacyAccepted,
-    bool? ukOptoutHamilton,
-    bool? ukOptoutLuckyseat,
-    bool? ukOptoutVenue,
-    bool? appTosPpAccepted,
-    bool? ukOptoutUpdatedAt,
-    Map? lotteryTosAcceptanceV2,
-    bool? hasAcceptedBetaNda,
     int? createdAt,
   }) {
     return User(
