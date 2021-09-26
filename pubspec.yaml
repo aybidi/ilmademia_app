@@ -7,20 +7,40 @@ environment:
   sdk: ">=2.13.0 <3.0.0"
 
 dependencies:
+  app_config_repository:
+    path: packages/app_config_repository
   bloc: ^7.2.0
+  equatable: ^2.0.0
+  flow_builder: ^0.0.2
   flutter:
     sdk: flutter
-  flutter_bloc: ^7.3.0
+  flutter_bloc: ^7.0.0
   flutter_localizations:
     sdk: flutter
+  flutter_svg: ^0.22.0
+  font_awesome_flutter: ^9.0.0
+  hydrated_bloc: ^7.0.0
+  in_app_review: ^2.0.2
   intl: ^0.17.0
+  path_provider: ^2.0.1
+  platform: ^3.0.0
+  transparent_image: ^2.0.0
+  url_launcher: ^6.0.4
+  very_good_analysis: 2.3.0
+  webview_flutter: ^2.0.12
 
 dev_dependencies:
-  bloc_test: ^8.2.0
+  bloc_test: ^8.1.0
+  build_runner: ^2.0.3
+  build_verify:
+    git:
+      url: https://github.com/felangel/build_verify
+      ref: flutter-compat
+  build_version: ^2.0.3
+  flutter_gen_runner: ^3.1.1
   flutter_test:
     sdk: flutter
-  mocktail: ^0.1.0
-  very_good_analysis: ^2.3.0
+  mocktail: ^0.1.1
 
 flutter:
   uses-material-design: true
