@@ -19,26 +19,24 @@ class AppConfig extends Equatable {
     required this.minIosBuildNumber,
   });
 
-  /// Converts a [Map<String, dynamic>] into an AppConfig instance.
+  /// Converts a [Map<String, dynamic>] into an [AppConfig] instance.
   factory AppConfig.fromJson(Map<String, dynamic> json) =>
       _$AppConfigFromJson(json);
 
-  Map<String, dynamic> toJson() => _$AppConfigToJson(this);
-
-  /// The upgrade url for android.
-  final String androidUpgradeUrl;
-
   /// Whether the app is down for maintenance.
   final bool downForMaintenance;
-
-  /// The upgrade url for ios.
-  final String iosUpgradeUrl;
 
   /// The minimum supported build number for Android.
   final int minAndroidBuildNumber;
 
   /// The minimum supported build number for iOS.
   final int minIosBuildNumber;
+
+  /// The upgrade URL for Android.
+  final String androidUpgradeUrl;
+
+  /// The upgrade URL for iOS.
+  final String iosUpgradeUrl;
 
   @override
   List<Object> get props => [

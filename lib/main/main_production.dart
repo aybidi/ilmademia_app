@@ -6,7 +6,7 @@
 // https://opensource.org/licenses/MIT.
 
 import 'package:ilmademia/app/app.dart';
-import 'package:ilmademia/bootstrap.dart';
+import 'package:ilmademia/main/bootstrap.dart';
 
 void main() {
   bootstrap(() => const App());
